@@ -1,0 +1,101 @@
+.mainwindow{
+     -fx-background-image: url("img/wallhaven.jpg") ;
+	 -fx-background-repeat:stretch ;
+	-fx-background-size: 900 506;
+	-fx-background-position: center  center ;
+}
+.TitleNew{
+	-fx-background-color: rgb(51,77,179);
+	-fx-text-fill: rgb(255,255,255);
+	-fx-font-family: Arial;
+	-fx-font-size: 26px ;
+}
+.labelReglement{
+	-fx-background-color: rgb(204,204,204);
+	-fx-text-fill: rgb(255,255,255);
+	-fx-font-family:  Arial;
+	-fx-font-size: 20;
+	
+}
+.labelMessage{
+	-fx-background-color: rgb(204,204,204);
+	-fx-text-fill: rgb(179,26,26);
+	-fx-font-family:  Arial;
+	-fx-font-size: 23;
+	
+}
+.labelForm{
+	-fx-text-fill:rgb(51,77,179);
+}
+.button{
+	-fx-background-color: rgb(204,204,204);
+	-fx-border-color: rgb(0,0,255);
+	-fx-background-radius: 3.0,2.0,2.0,2.0;
+	-fx-text-fill: rgb(0,0,0);
+	-fx-font-size: 15px ;
+	-fx-pref-height: 40px;
+	-fx-pref-width: 120px;
+	
+}
+.clientNom{
+	-fx-text-fill: rgb(26,26,26);
+	-fx-font-family: Roboto;
+     -fx-font-size: 15;	
+}
+.buttonRech{
+	-fx-background-color: rgb(204,204,204);
+	-fx-border-color: rgb(0,0,255);
+	-fx-background-radius: 3.0,2.0,2.0,2.0;
+	-fx-text-fill: rgb(0,0,0);
+	-fx-font-size: 15px ;
+	-fx-pref-height: 20px;
+	-fx-alignment: baseline-center;
+	-fx-pref-width: 100px;
+}
+.txtfRech{
+	-fx-pref-height: 30px;
+	-fx-alignment: baseline-center;
+	
+}
+.labelTitle{
+	-fx-background-color: rgb(51,77,179);
+	-fx-text-fill: #f7f7f7;
+	-fx-font-size: 26px;
+}
+.labelTotal{
+	-fx-text-fill: #f7f7f7;
+	-fx-font-size: 26px;
+
+}
+.boxTotal{
+	-fx-background-color: #5b5b5b;
+	-fx-border-color:#223344;
+	}
+.table-raw-cell{
+	-fx-cell-size: 40px;
+	-fx-font-size: 14px;
+	-fx-alignment: center-right ;
+	-fx-border-width: 0.009em;
+	-fx-border-color: #0079f2;
+}
+.addToPanier{
+	-fx-background-color: rgb(204,204,204);
+	-fx-border-color: rgb(0,0,255);
+	-fx-background-radius: 3.0,2.0,2.0,2.0;
+	-fx-text-fill: rgb(0,0,0);
+	-fx-font-size: 30px ;
+	-fx-pref-height: 190px;
+	-fx-pref-width: 100px;
+-fx-alignment:top-center   ;
+	
+}
+.deleteToPanier{
+	-fx-background-color: rgb(204,204,204);
+	-fx-border-color: rgb(0,0,255);
+	-fx-background-radius: 3.0,2.0,2.0,2.0;
+	-fx-text-fill: rgb(0,0,0);
+	-fx-font-size: 30px ;
+	-fx-pref-height: 190px;
+	-fx-pref-width: 100px;
+	-fx-alignment: baseline-center;
+}
